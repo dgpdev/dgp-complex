@@ -1,9 +1,9 @@
-[![Storj Complex](https://nodei.co/npm/storj-complex.png?downloads=true)](http://storj.github.io/complex)
+[![Storj Complex](https://nodei.co/npm/dgp-complex.png?downloads=true)](http://storj.github.io/complex)
 =========================================================================================================
 
 [![Build Status](https://img.shields.io/travis/Storj/complex.svg?style=flat-square)](https://travis-ci.org/Storj/complex)
 [![Coverage Status](https://img.shields.io/coveralls/Storj/complex.svg?style=flat-square)](https://coveralls.io/r/Storj/complex)
-[![NPM](https://img.shields.io/npm/v/storj-complex.svg?style=flat-square)](https://www.npmjs.com/package/storj-complex)
+[![NPM](https://img.shields.io/npm/v/dgp-complex.svg?style=flat-square)](https://www.npmjs.com/package/dgp-complex)
 [![License](https://img.shields.io/badge/license-AGPL3.0-blue.svg?style=flat-square)](https://raw.githubusercontent.com/Storj/complex/master/LICENSE)
 
 Manage many renter nodes with the same identity with remote control
@@ -22,13 +22,13 @@ Installation
 ### Command Line Interface
 
 ```
-npm install -g storj-complex
+npm install -g dgp-complex
 ```
 
 ### Programmatic
 
 ```
-npm install storj-complex --save
+npm install dgp-complex --save
 ```
 
 Usage
@@ -37,7 +37,7 @@ Usage
 ### Command Line Interface
 
 ```
-storj-complex -c <path/to/config.json>
+dgp-complex -c <path/to/config.json>
 ```
 
 ### Programmatic
@@ -45,7 +45,7 @@ storj-complex -c <path/to/config.json>
 Set up a renter service and landlord to control it.
 
 ```js
-var complex = require('storj-complex');
+var complex = require('dgp-complex');
 var landlord = complex.createLandlord({ /* landlord config */ });
 var renter = complex.createRenter({ /* renter config */ });
 
@@ -70,7 +70,7 @@ renter.pipe(process.stdout);
 Create a client to issue RPC commands to the landlord:
 
 ```js
-var complex = require('storj-complex');
+var complex = require('dgp-complex');
 var client = complex.createClient({ /* options */ });
 var contract = new storj.Contract({ /* contract data */ });
 

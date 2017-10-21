@@ -64,8 +64,8 @@ describe('Base Config', function() {
           amqpOpts: {},
           mongoUrl: 'mongodb://localhost:27017/storj-test',
           mongoOpts: {},
-          networkPrivateExtendedKey: '/tmp/storj-complex/hd-private.key',
-          migrationPrivateKey: '/tmp/storj-complex/private.key',
+          networkPrivateExtendedKey: '/tmp/dgp-complex/hd-private.key',
+          migrationPrivateKey: '/tmp/dgp-complex/private.key',
           networkOpts: {
             rpcPort: 4000,
             rpcAddress: 'localhost',
@@ -155,8 +155,8 @@ describe('Renter Config', function() {
         amqpOpts: {},
         mongoUrl: 'mongodb://localhost:27017/storj-test',
         mongoOpts: {},
-        networkPrivateExtendedKey: '/tmp/storj-complex/hd-private.key',
-        migrationPrivateKey: '/tmp/storj-complex/private.key',
+        networkPrivateExtendedKey: '/tmp/dgp-complex/hd-private.key',
+        migrationPrivateKey: '/tmp/dgp-complex/private.key',
         networkOpts: {
           rpcPort: 4000,
           rpcAddress: 'localhost',
@@ -191,7 +191,7 @@ describe('Renter Config', function() {
         amqpOpts: {},
         mongoUrl: 'mongodb://localhost:27017/storj-test',
         mongoOpts: {},
-        networkPrivateExtendedKey: '/tmp/storj-complex/hd-private.key',
+        networkPrivateExtendedKey: '/tmp/dgp-complex/hd-private.key',
         networkIndex: 10,
         networkOpts: {
           rpcPort: 4000,

@@ -58,9 +58,9 @@ describe('Renter', function() {
           amqpOpts: {},
           mongoUrl: 'mongodb://localhost:27017/storj-test',
           mongoOpts: {},
-          networkPrivateExtendedKey: '/tmp/storj-complex/hd-private.key',
+          networkPrivateExtendedKey: '/tmp/dgp-complex/hd-private.key',
           networkIndex: 10,
-          migrationPrivateKey: '/tmp/storj-complex/private.key',
+          migrationPrivateKey: '/tmp/dgp-complex/private.key',
           networkOpts: {
             rpcPort: 4000,
             rpcAddress: 'localhost',

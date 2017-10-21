@@ -28,6 +28,6 @@ ADD . .
 # Removed for production use but may need this to generate a config file
 #ADD setup.sh /bin/setup.sh
 
-# Our container needs dumb-init to handle PID-1 responsibilities from the linux kernel, wait.sh to make sure the services complex depends on are up before starting, and setup.sh to generate the configuration file for starting storj-complex
+# Our container needs dumb-init to handle PID-1 responsibilities from the linux kernel, wait.sh to make sure the services complex depends on are up before starting, and setup.sh to generate the configuration file for starting dgp-complex
 
-CMD ["./dockerfiles/scripts/setup-renter.sh", "./bin/storj-complex.js -c /etc/storj/renter.conf"]
+CMD ["./dockerfiles/scripts/setup-renter.sh", "./bin/dgp-complex.js -c /etc/storj/renter.conf"]

@@ -4,7 +4,7 @@
       "logLevel": 3,
       "amqpUrl": "amqp://localhost",
       "amqpOpts": {},
-      "mongoUrl": "mongodb://localhost:27017/__storj-complex-example",
+      "mongoUrl": "mongodb://localhost:27017/__dgp-complex-example",
       "mongoOpts": {},
       "networkPrivateExtendedKey": "network-private-key.example",
       "networkIndex": 0,
